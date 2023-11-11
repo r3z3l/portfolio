@@ -25,7 +25,7 @@ export default function Contact() {
         <a className="underline" href="mailto:hkchaurasiya20@gmail.com">
           hkchaurasiya20@gmail.com
         </a>{" "}
-        or throught this form.
+        or through this form.
       </p>
       <form className="mt-10 flex flex-col dark:text-black/" action={async (formData) => {
         const {data,error} = await sendEmail(formData);
